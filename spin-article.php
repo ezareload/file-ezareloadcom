@@ -1365,8 +1365,7 @@ if(isset($_POST['artikel'])) {
         ' Zenit ' => ' Titik Puncak ',    
         ' kelayakan' => ' kepadatan', 
         ' selanjutnya' => ' berikutnya ',
-        ' berikutnya' => ' selanjutnya ', 
-        ' beberapa ' => ' sekelumit ', );
+        ' berikutnya' => ' selanjutnya ', );
     $edit = str_replace(array_keys($replaceThis), $replaceThis,$edit);
     $respon = '<br/><br/><textarea style="resize: none;" name="artikel" alt="Artikel" placeholder="Masukan artikelnya disini" rows="15" cols="100">'.$edit.'</textarea>';
 }
